@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: 1440px;
+  height: 1024px;
+  margin: 147px auto;
+}
+.page__card1 {
+  max-width: 350px;
+  height: 552px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid #EFEFEF;
+  background: #FFF;
+  margin: 0 auto;
+  padding: 32px 40px;
+}
+.page__card1_section1 {
+  text-align: center;
+}
+.page__card1_section1-Signup {
+  color: #8E8E8E;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 270px;
+}
+.page__card1_section1-button {
+  width: 266px;
+  height: 34px;
+  flex-shrink: 0;
+  display: flex;
+  border-radius: 59px;
+  background: #EFEFEF;
+  text-align: center;
+  border: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.page__card1_section1-button p {
+  margin-left: 24px;
+}
+.page__card1_section2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 24px auto;
+}
+.page__card1_section2-leftline {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #D9D9D9;
+  height: 1px;
+}
+.page__card1_section2-or {
+  color: #959595;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.page__card1_section2-rightline {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #D9D9D9;
+  height: 1px;
+}
+.page__card1_section3 {
+  display: flex;
+  flex-direction: column;
+}
+.page__card1_section3-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.page__card1_section3-form input {
+  height: 39px;
+  padding: 13px 12px;
+  border-radius: 3px;
+  border: 1px solid #DBDBDB;
+  background: #FAFAFA;
+}
+.page__card1_section3-button {
+  margin-top: 16px;
+  border-radius: 4px;
+  background: rgba(0, 149, 246, 0.25);
+  height: 30px;
+  border: 0px;
+  color: #FFF;
+}
+.page__card1_section4 {
+  display: flex;
+}
+.page__card1_section4-Policy {
+  color: #8E8E8E;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+.page__card2 {
+  max-width: 350px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid #EFEFEF;
+  background: #FFF;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page__card2_section1 {
+  display: flex;
+}
+.page__card2_section1-account {
+  display: flex;
+}
+.page__card2_section1-account-button {
+  text-decoration: none;
+  color: #0095F6;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.page__card3 {
+  max-width: 0 auto;
+  width: 350px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.page__card3_section1 {
+  margin-top: 20px;
+}
+.page__card3_section2 {
+  margin-top: 21px;
+}/*# sourceMappingURL=style.css.map */
